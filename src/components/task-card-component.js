@@ -6,7 +6,7 @@ function createCardComponent(status, title) {
         `<p class="taskCardElement card${status}">${title}</p>`
     );
 }
-
+//задача
 export class CardComponent extends AbstractComponent{
     #id = null;
     #status = null;
@@ -17,7 +17,7 @@ export class CardComponent extends AbstractComponent{
         this.#id = id;
         this.#status = status;
         this.#title = title;
-        console.log(id, title, status);
+
     }
       
 
